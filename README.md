@@ -1,4 +1,4 @@
-# Self-Organising-Maps: Using Machine Learning to explore spatial data
+# Self-Organising Maps: Using Machine Learning to explore spatial data
 
 This project applies the SOM technique to Scottish deprivation data from Edinburgh. Seven clusters (hierachical clustering) are created and displayed on a geographical map.
 
