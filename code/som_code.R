@@ -202,7 +202,7 @@ ggplot(data=mappoints, aes(x=long, y=lat, group=group, fill=factor(cluster))) +
 ed_map <- merge(edinburgh_map, cluster_details, by.x="DataZone", by.y="id")
 
 # save as an esri shapefile
-writeOGR(obj=ed_map, dsn="../output", layer="edinburgh_map", driver="ESRI Shapefile")
+writeOGR(obj=ed_map, dsn="../output_shapefile", layer="edinburgh_map", driver="ESRI Shapefile")
 
 
 
