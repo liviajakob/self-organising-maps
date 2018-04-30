@@ -1,6 +1,7 @@
 # Self-Organising Maps: Using Machine Learning to Explore Spatial Data
 
 This project applies the SOM technique to Scottish deprivation data from Edinburgh. Seven clusters (hierachical clustering) are created and displayed on a geographical map.
+It uses the kohonen package in R.
 
 Read more: http://www.geo-blog.com/soms-for-geographical-data/
 
